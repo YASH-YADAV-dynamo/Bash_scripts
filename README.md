@@ -53,11 +53,11 @@ mkdir [foldername]
 ```
 For example, you want to make a folder named "frontend.txt"
 ```
-mkdir frontend.txt
+mkdir frontend
 ```
-If you want to create new folder "frontend.txt" and want to be inside this directory also ,then use `&&`
+If you want to create new folder "frontend" and want to be inside this directory also ,then use `&&`
 ```
-mkdir frontend.txt && cd frontend.txt
+mkdir frontend && cd frontend
 ```
 touch: it creates an empty file and it also use to update time-stamps.
 ```
@@ -87,6 +87,36 @@ For example, to view content inside name.txt
 ```
 cat name.txt
 ```
+cp: its copy-paste, used to create a duplicate of specified files or directories in the destination location.
+```
+cp [options] [source] [destination]
+```
+For example, you want to make a copy of name.txt to a self made folder frontend
+```
+cd Desktop
+cp name frontend
+```
+(for copying file ,we don't need any option, but for moving folder we need `-r` as a option)
+>Q) What if [destination] is not made previously?
+>Ans: It will create it itself on your present directory
+
+<br>
+mv: It is used to move directories from one location to another location.
+>Q) Can you rename a directory using `mv`?
+>Ans) ofcourse! By moving a directory into itself it's name will be over-written ,thus renamed.
+
+```
+mv [options] [source] [destination]
+
+```
+For example, you want to move file named "name" to a new folder named "new".
+```
+mkdir new
+mv name new
+```
+***If you are not giving options ,it doesn't mean command will not work, it's just it will work without handling them properly or avoid special handling.***
+
+
 
 
 
