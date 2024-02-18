@@ -6,7 +6,7 @@
 
 This repository contains a walk-through guide required for you to start BASH-Scripting
 
-#Prerequisites
+# Prerequisites
 
 To use this repository, you need the have a linux installed on your system.
 >For windows users --->Use WSL (windows subsystem for linux).
@@ -96,14 +96,13 @@ For example, you want to make a copy of name.txt to a self made folder frontend
 cd Desktop
 cp name frontend
 ```
-(for copying file ,we don't need any option, but for moving folder we need `-r` as a option)
->Q) What if [destination] is not made previously?
->Ans: It will create it itself on your present directory
-
+(for copying file ,we don't need any option, but for moving folder we need `-r` as a option)<br>
+>Q) What if [destination] is not made previously?<br> Ans: It will create it itself on your present directory
 <br>
 mv: It is used to move directories from one location to another location.
->Q) Can you rename a directory using `mv`?
->Ans) ofcourse! By moving a directory into itself it's name will be over-written ,thus renamed.
+<br>
+>Q) Can you rename a directory using `mv`?<br> Ans) ofcourse! By moving a directory into itself it's name will be over-written ,thus renamed.
+<br>
 
 ```
 mv [options] [source] [destination]
