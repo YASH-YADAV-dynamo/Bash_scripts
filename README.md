@@ -99,9 +99,9 @@ cp name frontend
 (for copying file ,we don't need any option, but for moving folder we need `-r` as a option)<br>
 >Q) What if [destination] is not made previously?<br> Ans: It will create it itself on your present directory
 <br>
-mv: It is used to move directories from one location to another location.
-<br>
->Q) Can you rename a directory using `mv`?<br> Ans) ofcourse! By moving a directory into itself it's name will be over-written ,thus renamed.
+mv: It is used to move directories from one location to another location.<br>
+
+>Q) Can you rename a directory using `mv`?<br> Ans) ofcourse! By moving a directory into itself it's name will be over-written ,thus renamed
 <br>
 
 ```
