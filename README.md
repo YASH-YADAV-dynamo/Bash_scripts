@@ -115,8 +115,7 @@ mv name new
 ```
 ***If you are not giving options ,it doesn't mean command will not work, it's just it will work without handling them properly or avoid special handling.***
 ## Vim
-<img src="https://github.com/YASH-YADAV-dynamo/Automation_scripts/assets/147921735/2f9abaec-5ee3-4ff7-820c-b67c1b853037)
-">
+<img src="https://github.com/YASH-YADAV-dynamo/Automation_scripts/assets/147921735/2f9abaec-5ee3-4ff7-820c-b67c1b853037">
 <h6>What is Vim ?</h6>
 Vim is a Unix text editor that's included in Linux, BSD, and macOS. It's known for being fast and efficient, in part because it's a small application that can run in a terminal, but mostly because it can be controlled entirely with the keyboard with no need for menus or a mouse. 
 <br>
