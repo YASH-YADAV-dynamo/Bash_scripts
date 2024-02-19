@@ -114,6 +114,41 @@ mkdir new
 mv name new
 ```
 ***If you are not giving options ,it doesn't mean command will not work, it's just it will work without handling them properly or avoid special handling.***
+## Vim
+<img src="![image](https://github.com/YASH-YADAV-dynamo/Automation_scripts/assets/147921735/48623195-ef15-436b-9f49-6a9bba690f33)">
+<h6>What is Vim ?</h6>
+Vim is a Unix text editor that's included in Linux, BSD, and macOS. It's known for being fast and efficient, in part because it's a small application that can run in a terminal, but mostly because it can be controlled entirely with the keyboard with no need for menus or a mouse. 
+<br>
+Vim is also commonly referred to as Vi because when it was written by Bill Joy in the late 1970s, it was short for visual editor. 
+<h6>Some Basic Vim commands</h6>
+vim: `vim` command is used to open file in vim editor
+
+<br>
+
+```
+vim [filename]
+
+```
+For example, to open file named name.
+
+<br>
+
+```
+vim name
+
+```
+Press `i` to enter insesrt mode in vim and can make changes.There are several modes in vim like Normal modes, Visual modes, Command-line mode,Ex mode.
+
+<br>
+After writing, you can exit vim, using `ESC` + `:` ,then type <br> <b> `q` to exit without saving</b><br>
+<b> `wq` to exit with saving</b><br> <b>`!` before `w` and `wq` to imply forceful action ,like `!wq` and `q`.</b>
+
+
+
+
+
+**For vim cheat-sheet ,<a href="https://opensource.com/downloads/cheat-sheet-vim">click here</a>**
+
 
 
 
